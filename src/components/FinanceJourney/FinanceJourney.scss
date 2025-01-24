@@ -1,0 +1,59 @@
+.financejourney__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-items: center;
+  padding: 80px;
+  background: #191919;
+  border-radius: 20px;
+  margin: 100px 0;
+
+  @media (max-width: 1100px) {
+    flex-direction: column;
+  }
+
+}
+
+.financejourney__box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: #191919;
+}
+
+.financejourney_h1 {
+  font-size: 32px;
+  background: #191919;
+  
+
+  @media (max-width: 1100px) {
+    width: 340px;
+    text-align: center;
+    font-size: 28px;
+  }
+
+  span {
+    background: #191919;
+  }
+}
+
+.financejourney__p {
+  color: grey;
+  width: 850px;
+  background: #191919;
+  
+
+  @media (max-width: 1100px) {
+    width: 340px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+
+.financejourney__Link {
+  color: black;
+  background: #b4ff59;
+  padding: 18px 30px;
+  text-decoration: none;
+  border-radius: 40px;
+}

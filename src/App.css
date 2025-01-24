@@ -1,0 +1,286 @@
+*{
+margin: 0;
+padding: 0;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background: #141414;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 50px;
+  @media (max-width: 1000px) {
+    padding: 0 15px;
+  }
+
+}
+
+.login__wrapper {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  padding: 100px 150px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: #171717;
+  border-radius: 20px;
+
+  @media (max-width: 900px) {
+    padding: 30px;
+  }
+  
+
+
+  form {
+    display: flex;
+    flex-direction: column;
+    background: #171717;
+    align-items: center;
+
+
+  
+
+  }
+
+  
+}
+
+.login-title {
+  color: #b4ff59;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    background: #171717;
+}
+
+.login-p {
+  margin-bottom: 80px;
+    color: white;
+    background: #171717;
+}
+
+.login-box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  background: #171717;
+  justify-content: center;
+
+  @media (max-width: 1100px) {
+    grid-template-columns: 1fr;
+  }
+
+
+
+  input {
+    padding: 18px 24px;
+    border-radius: 40px;
+    color: white;
+    background: #141414;
+    border: 1px solid #222;
+    width: 360px;
+
+    @media (max-width: 700px) {
+      width: 300px;
+    }
+
+    @media (max-width: 500px) {
+      width: 280px;
+    }
+  }
+}
+
+.login__btn {
+  color: white;
+  margin: 40px 0;
+  background: #171717;
+
+
+}
+
+.login__bttn {
+  padding: 18px 24px;
+  color: white;
+  border: 1px solid grey;
+  background: #202020;
+  border-radius: 40px;
+  text-decoration: none;
+
+  @media (max-width: 500px) {
+    width: 280px;
+  }
+}
+
+.login__button {
+  padding: 18px 24px;
+  color: black;
+  border: none;
+  background: #b4ff59;
+  border-radius: 40px;
+  margin-bottom: 20px;
+  text-decoration: none;
+
+  @media (max-width: 500px) {
+    width: 280px;
+  }
+  
+}
+
+.signup__btn{
+  width: 360px;
+
+  @media (max-width: 500px) {
+    width: 280px;
+  }
+}
+
+
+
+.signup__btns {
+  margin-top: 50px;
+}
+
+.login__link {
+    width: 300px;
+
+    @media (max-width: 500px) {
+      width: 280px;
+    }
+}
+
+
+
+
+.account-selector {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+
+
+}
+
+.icons-title {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 390px;
+  background: #171717;
+} 
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background: #171717;
+
+  .icon {
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    background: #171717;
+
+
+
+    &:hover {
+      opacity: 0.9;
+    }
+  }
+
+  button {
+    background: #171717;
+
+    img {
+      background: #171717;
+    }
+  }
+}
+
+.popup-content {
+  background: #191919;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  min-width: 300px;
+
+  p {
+    color: white;
+    background: #191919;
+  }
+
+  h3 {
+    margin-bottom: 10px;
+    color: white;
+    background: #191919;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    background: #191919;
+
+    li {
+      margin: 5px 0;
+      color: white;
+      background: #191919;
+    }
+  }
+
+  .close-btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #b4ff59;
+    border: none;
+    color: #222;
+    border-radius: 5px;
+    cursor: pointer;
+
+  
+  }
+}
+
+
+.icons-box {
+  display: flex;
+  gap: 5px;
+  margin-top: 30px;
+  background: #171717;
+  align-items: center;
+
+  @media (max-width: 500px) {
+    margin-left: 35px;
+  }
+
+  
+  p {
+    color: grey;
+    text-align: center;
+    background: #171717;
+    width: 120px;
+  }
+
+  span {
+    border: 1px solid grey;
+    height: 0px;
+    width: 130px;
+    color: grey;
+
+
+    @media (max-width: 500px) {
+      width: 95px;
+    }
+  }
+}

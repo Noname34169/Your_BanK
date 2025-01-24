@@ -1,0 +1,30 @@
+.careerswrap {
+    margin-top: 50px;
+}
+
+.careerswrap__startimg {
+    width: 1200px;
+    display: flex;
+
+    @media (max-width: 1250px) {
+      width: 1000px;
+      
+    }
+    @media (max-width: 1050px) {
+      width: 750px;
+    }
+    @media (max-width: 750px) {
+      display: none;
+    }
+}
+.careerswrap__startimgadoptive {
+ display: none;
+
+ @media (max-width: 750px) {
+   display: block;
+ }
+
+ @media (max-width: 400px) {
+   width: 340px;
+ }
+}

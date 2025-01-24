@@ -1,0 +1,34 @@
+.securitywrap {
+    margin-top: 50px;
+    
+}
+
+.securitywrap__startimg {
+    width: 1200px;
+    display: flex;
+
+    @media (max-width: 1250px) {
+      width: 1000px;
+      
+    }
+    @media (max-width: 1050px) {
+      width: 750px;
+      justify-content: center;
+    }
+    @media (max-width: 750px) {
+      display: none;
+    }
+}
+.securitywrap__startimgadoptive {
+ display: none;
+ justify-content: center;
+
+ @media (max-width: 750px) {
+   display: flex;
+   justify-content: center;
+ }
+
+ @media (max-width: 400px) {
+   width: 340px;
+ }
+}
