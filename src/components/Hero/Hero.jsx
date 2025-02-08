@@ -21,10 +21,8 @@ const Hero = () => {
           <div className="hero__wrapper">
             <div
               className="hero__boxs"
-              data-aos="fade-down-right" // Текстовые элементы с правой стороны
-              data-aos-delay="200"
             >
-              <div className="hero__box" data-aos="fade-down-right" data-aos-delay="300">
+              <div className="hero__box">
                 <img src="hero__icon.svg" alt="" />
                 <p>No LLC Required, No Credit Check.</p>
               </div>
@@ -45,18 +43,12 @@ const Hero = () => {
               data-aos="fade-down-left" // Изображения с левой стороны
               data-aos-delay="400"
             >
-              <img
-                className="hero__img"
-                src="/hero__container.png"
-                alt=""
-                data-aos="fade-down-left"
-                data-aos-delay="1000"
-              />
+
               <img
                 src="/hero__сontainer.png"
                 alt=""
-                data-aos="fade-down-left"
-                data-aos-delay="1200"
+                data-aos="zoom-in"
+                data-aos-delay="1000"
               />
             </div>
           </div>

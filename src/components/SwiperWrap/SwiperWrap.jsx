@@ -54,16 +54,16 @@ const SwiperWrap = () => {
             >
               {/* Контейнер слайдов */}
               <div className="swiper__wrapper">
-                <SwiperSlide data-aos="zoom-in" data-aos-delay="300">
+                <SwiperSlide >
                   <img src="/swiper-card-icon.png" alt="" />
                 </SwiperSlide>
-                <SwiperSlide data-aos="zoom-in" data-aos-delay="400">
+                <SwiperSlide >
                   <img src="/swiper-card-icon.png" alt="" />
                 </SwiperSlide>
-                <SwiperSlide data-aos="zoom-in" data-aos-delay="500">
+                <SwiperSlide >
                   <img src="/swiper-card-icon.png" alt="" />
                 </SwiperSlide>
-                <SwiperSlide data-aos="zoom-in" data-aos-delay="600">
+                <SwiperSlide  >
                   <img src="/swiper-card-icon.png" alt="" />
                 </SwiperSlide>
               </div>
